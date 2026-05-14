@@ -12,10 +12,10 @@ function App() {
         <img src='images/squid.jpeg' alt='myself' className='my-avatar'/>
         <div className='profile'>
           <p>
-            <strong style={{ fontSize : "26px", margin : "8px" }}>Yuusuke Gounaka</strong>
+            <strong style={{ fontSize : "26px", margin : "8px" }}>Yusuke Gonaka</strong>
           </p>
           <p>
-            M1
+            〜社会人1年目
           </p>
         </div>
       </div>
@@ -29,13 +29,7 @@ function App() {
               Web技術に関して勉強しています。主にバックエンドに関する学習をしています。フロントエンドは少しだけ...
             </p>
             <p>
-              所属するプログラミング学習コミュニティにおいてチーム開発（求人情報のスクレイピング）を行っています。
-            </p>
-            <p>
-              大学では複素ニューラルネットワークに関する研究を行っています。
-            </p>
-            <p>
-              現在は特に<strong>Linux</strong>と<strong>英語</strong>に関して学習をしています。
+              現在は特に<strong>Linux</strong>と<strong>Erlang</strong>に関して学習をしています。
             </p>
           </div>
         </div>
@@ -66,25 +60,34 @@ function App() {
             Languages
           </h3>
           <p align="center">
-              <a href="https://skillicons.dev">
-                <img src="https://skillicons.dev/icons?i=html,css,js,py" alt='skillicons'/>
-              </a>
+            <a href="https://go-skill-icons.netlify.app">
+              <img
+                src="https://go-skill-icons.vercel.app/api/icons?i=html,css,javascript,typescript,python,erlang"
+                alt="HTML, CSS, JavaScript, TypeScript, Python, Erlang"
+              />
+            </a>
           </p>
           <h3>
             Frameworks and Libraries
           </h3>
           <p align="center">
-              <a href="https://skillicons.dev">
-                <img src="https://skillicons.dev/icons?i=express,flask,tensorflow,react" alt='skillicons'/>
-              </a>
+            <a href="https://go-skill-icons.netlify.app">
+              <img
+                src="https://go-skill-icons.vercel.app/api/icons?i=flask,react"
+                alt="Flask, React"
+              />
+            </a>
           </p>
           <h3>
             DB and Dev Tools etc
           </h3>
           <p align="center">
-              <a href="https://skillicons.dev">
-                <img src="https://skillicons.dev/icons?i=docker,git,github,vscode" alt='skillicons'/>
-              </a>
+            <a href="https://go-skill-icons.netlify.app">
+              <img
+                src="https://go-skill-icons.vercel.app/api/icons?i=docker,git,github"
+                alt="Docker, Git, GitHub"
+              />
+            </a>
           </p>
         </div>
         {/* <div className='section activities'>
@@ -95,7 +98,7 @@ function App() {
       </div>
       <footer className='App-footer'>
         <p>
-          &copy; 2024 Yusuke Gounaka
+          &copy; 2026 Yusuke Gonaka
         </p>
       </footer>
     </div>
