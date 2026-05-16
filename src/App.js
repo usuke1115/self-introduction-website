@@ -79,6 +79,17 @@ function App() {
             </a>
           </p>
           <h3>
+           OS 
+          </h3>
+          <p align="center">
+            <a href="https://go-skill-icons.netlify.app">
+              <img
+               src="https://go-skill-icons.vercel.app/api/icons?i=linux,macos"
+               alt="Linux, MacOS"
+              />
+            </a>
+          </p> 
+          <h3>
             DB and Dev Tools etc
           </h3>
           <p align="center">
@@ -90,11 +101,6 @@ function App() {
             </a>
           </p>
         </div>
-        {/* <div className='section activities'>
-          <h2 className='subtitle'>
-            Activities
-          </h2>
-        </div> */}
       </div>
       <footer className='App-footer'>
         <p>
